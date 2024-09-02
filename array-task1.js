@@ -25,19 +25,26 @@
 //     console.log('javascript book is not in the array')
 // }
 // ### 4. Checking if it's an Array
-const numbers= [2, 23, 32, 35, 65, 43];
-const galib = 54;
-console.log(Array.isArray(numbers));
-if(Array.isArray(numbers)){
-    console.log('numbers is an array')
-}
-else{
-    console.log('numbers is not an array')
-}
-console.log(Array.isArray(galib));
-if(Array.isArray(galib)){
-    console.log('galib is an array')
-}
-else{
-    console.log('galib is not an array')
-}
+// const numbers= [2, 23, 32, 35, 65, 43];
+// const galib = 54;
+// console.log(Array.isArray(numbers));
+// if(Array.isArray(numbers)){
+//     console.log('numbers is an array')
+// }
+// else{
+//     console.log('numbers is not an array')
+// }
+// console.log(Array.isArray(galib));
+// if(Array.isArray(galib)){
+//     console.log('galib is an array')
+// }
+// else{
+//     console.log('galib is not an array')
+// }
+// ### 5. Combining Arrays
+let harunsReg = [54, 54, 65, 32,43 ,76, 23];
+let harunsSubj = ['math', 'english', 'social-book', 'javascript-book', 'gk-book'];
+const total = harunsReg.concat(harunsSubj);
+console.log(harunsReg);
+console.log(harunsSubj);
+console.log(total);
